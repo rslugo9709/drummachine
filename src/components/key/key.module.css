@@ -1,0 +1,33 @@
+
+
+.key{
+    display: flex;
+    flex: 1 1;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+    border: 2px solid #5483B3;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 20px;
+    height: 100%;
+    margin: 2%
+}
+
+
+.key:hover{
+    border-color: black;
+    background-color: #5483B3;
+    cursor: pointer;
+    transition: 0.2s;
+    color: black;
+}
+
+.key:active{
+
+    box-shadow: 0px 0px 20px 3px black;
+    
+}
+

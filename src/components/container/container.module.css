@@ -1,0 +1,19 @@
+
+
+.contenedor{
+    width: 45%;
+    height: 70%;
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.titulo{
+    color: white;
+    font: 1.5rem;
+    
+}
