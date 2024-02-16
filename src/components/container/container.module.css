@@ -1,7 +1,7 @@
 
 
 .contenedor{
-    width: 45%;
+    width: 25%;
     height: 70%;
     background-color: black;
     border-radius: 10px;
@@ -9,11 +9,16 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+    border: 2px solid white;
 }
 
 .titulo{
     color: white;
-    font: 1.5rem;
+    font: 1.3rem;
     
+}
+
+.cosa{
+    font: 1rem;
+    color: white;
 }

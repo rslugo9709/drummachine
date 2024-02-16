@@ -3,7 +3,7 @@ import style from "./keypad.module.css";
 import Key from "../key/key";
 
 
-function Keypad(){
+function Keypad({presionar}){
     
     const q = {description: "Heater 1",url: "https://s3.amazonaws.com/freecodecamp/drums/Heater-1.mp3" };
     const w = {description: "Heater 2",url: "https://s3.amazonaws.com/freecodecamp/drums/Heater-2.mp3" };
@@ -17,19 +17,19 @@ function Keypad(){
     return(
         <div className={style.keypad}>
             <div className={style.row}>
-            <Key valor="Q" desc={q.description} url={q.url} />
-            <Key valor="W" desc={w.description} url={w.url} />
-            <Key valor="E" desc={e.description} url={e.url} />
+            <Key presionar={presionar} valor="Q" desc={q.description} url={q.url} />
+            <Key presionar={presionar} valor="W" desc={w.description} url={w.url} />
+            <Key presionar={presionar} valor="E" desc={e.description} url={e.url} />
             </div>
             <div className={style.row}>
-            <Key valor="A" desc={a.description} url={a.url} />
-            <Key valor="S" desc={s.description} url={s.url} />
-            <Key valor="D" desc={d.description} url={d.url} />
+            <Key presionar={presionar} valor="A" desc={a.description} url={a.url} />
+            <Key presionar={presionar} valor="S" desc={s.description} url={s.url} />
+            <Key presionar={presionar} valor="D" desc={d.description} url={d.url} />
             </div>
             <div className={style.row}>
-            <Key valor="Z" desc={z.description} url={z.url} />
-            <Key valor="X" desc={x.description} url={x.url} />
-            <Key valor="C" desc={c.description} url={c.url} />
+            <Key presionar={presionar} valor="Z" desc={z.description} url={z.url} />
+            <Key presionar={presionar} valor="X" desc={x.description} url={x.url} />
+            <Key presionar={presionar} valor="C" desc={c.description} url={c.url} />
             </div>
         </div>
     )
