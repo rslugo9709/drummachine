@@ -22,3 +22,58 @@
     font: 1rem;
     color: white;
 }
+
+@media screen and (max-width: 500px){
+    .contenedor{
+        width: 60%;
+
+    }
+    .titulo{
+        
+        font: 1.5rem;
+        
+    }
+}
+@media screen and (max-width: 300px){
+    .contenedor{
+        width: 70%;
+ 
+        
+    }
+    .titulo{
+        
+        font: 1rem;
+        
+    }
+}
+
+@media screen and (max-height: 500px){
+    .contenedor{
+        height: 60%;
+        
+    }
+
+}
+
+@media screen and (min-height: 700px) and (max-width: 300px) {
+    .contenedor{
+        height: 45%;
+        
+    }
+
+}
+
+@media screen and (min-height: 500px) and (max-width: 500px) {
+    .contenedor{
+        height: 60%;
+        
+    }
+
+}
+@media screen and (min-height: 700px) and (max-width: 500px) {
+    .contenedor{
+        height: 50%;
+        
+    }
+
+}
